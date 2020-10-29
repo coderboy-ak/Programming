@@ -16,7 +16,7 @@ elem=driver.find_element_by_link_text('About')
 elem.click()
 #elem.send_keys(Keys.END)   #Scroll Down Page
 time.sleep(4)
-#elem.send_keys(Keys.HOME)
+#llelem.send_keys(Keys.HOME)
 driver.back()   #Navigate backward
 time.sleep(2)
 driver.forward() #Navigate forward
