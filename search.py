@@ -9,4 +9,4 @@ tabUrl="http://google.com/?#q=";
 term=raw_input("enter search query: ");
 #webbrowser.open(tabUrl+term,new=new);
 driver.get(tabUrl+term)
-driver.close()
+# driver.close()
