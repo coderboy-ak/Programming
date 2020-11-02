@@ -1,9 +1,5 @@
 #use of is_selected(),is_Displayed and is_enabled()
-import time
-from selenium import webdriver
-driver = webdriver.Chrome(executable_path="C:\driver\chromedriver.exe")
-driver.get('http://demo.guru99.com/test/newtours/index.php')
-print(driver.title)
+
 assert "Welcome: Mercury Tours" in driver.title
 user_ele= driver.find_element_by_name("userName")
 print(user_ele.is_displayed()) #returns true/false based of element status
