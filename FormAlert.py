@@ -14,4 +14,7 @@ driver.find_element(By.XPATH,"//*[@id='HTML9']/div[1]/button").click()
 driver.switch_to.alert.dismiss()
 text2=driver.find_element(By.ID,"demo").text
 print(text2)
+driver.switch_to.frame(0)
+driver.find_element_by_id("RESULT_FileUpload-10").send_keys("C://Users/Amit/Music/name.jpg")
+print("File uploaded")
 driver.close()
